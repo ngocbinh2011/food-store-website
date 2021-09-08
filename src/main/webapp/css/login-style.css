@@ -1,0 +1,317 @@
+/*
+input{
+    text-align: left;
+} */
+body {
+    font-size: 16px;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+header .login ul li{
+    display: inline;
+    padding: 0 10px;
+}
+header .login {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1em;
+    padding: 2em auto;
+}
+header .login ul {
+    padding: 0.7em 0.7em 0em 0.7em;
+}
+.login-user {
+    border-right: solid 1px gray;
+
+}
+.register-user {
+    border-left: solid 1px gray;
+}
+.nav-bar ul{
+
+    list-style: none;
+}
+.nav-bar ul li {
+    padding-left: 1em;
+    padding-right: 2em;
+
+}
+nav {
+    padding: 1em 10em;
+}
+.search {
+    display: flex;
+    justify-content: left;
+}
+select {
+
+    padding-right: 2em;
+    padding-bottom: 0.4em;
+
+}
+input {
+    /* padding: 0 5em;*/
+    padding-bottom: 0.4em;
+}
+.logo {
+    display: flex;
+    flex-direction: row;
+}
+.fa-shopping-cart{
+    background-color: #f8694d;
+    color: #f8694d;
+    padding-top: 35px;
+    padding-right: 50px;
+    padding-left: 10px;
+}
+.names{
+    color: red;
+}
+.search p {
+    padding-top: 0.2em;
+}
+.details{
+    font-size: 14px;
+}
+.shop-name {
+    font-size: 22px;
+}
+.cart{
+    padding-top: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    padding: 1em 10em;
+    background-color: darkslategray;
+    color: whitesmoke;
+
+}
+footer p{
+    font-size: 1.5em;
+    padding-left: 2.5em;
+
+}
+.signature{
+    text-align: left;
+    padding-left: 5em;
+}
+.last-details i {
+    font-size: 5em;
+    padding-left: 1.2em;
+}
+.last-details span{
+    padding-left: 6.5em;
+}
+.last-details p {
+    font-size: 0.9em;
+}
+.contact p{
+    font-size: 0.9em;
+}
+.contact span{
+    margin-bottom: 1px;
+}
+.contact {
+    padding-top: 3em;
+}
+.information{
+    padding-top: 3em;
+}
+.information p{
+    font-size: 0.9em;
+}
+.information span{
+    padding-bottom: 1.5em;
+}
+.about-us{
+    padding-top: 3em;
+}
+.about-us span{
+    padding-bottom: 1.5em;
+}
+.about-us p{
+    font-size: 0.9em;
+}
+html{
+    overflow-x:hidden;
+    overflow-y: scroll;
+}
+/*Binh config start here*/
+
+.button-search{
+    background-color: red;
+    color: white;
+}
+
+.body-app{
+    background-color: #f5f5f5;
+}
+
+.white-div{
+    background-color: white;
+}
+
+.navbar__title-category{
+    color: red;
+}
+
+.fas, .fab{
+    color: black;
+}
+
+.item-color{
+    color: #28a745;
+}
+
+.navbar__tittle-head{
+    margin-left: 3px;
+    padding-top: 3px;
+    color: red;
+}
+
+.title-item-div{
+    background-color: rgb(107, 193, 95) ;
+    height: 30px;
+}
+
+.cart-icon{
+    color: #f8694d;
+}
+
+.cart{
+    color: red;
+}
+
+.logo-div{
+    width: 100px;
+    height: 30px;
+    background-color: black;
+}
+
+
+/*login */
+
+
+
+input[type="submit"], button{
+    cursor: pointer;
+}
+
+.login-middle{
+    /* margin-left: 100px; */
+    width: 28%;
+    height: 400px;
+    background-color: white;
+    /* text-align: center; */
+    border-radius: 10px;
+    /* display: block; */
+}
+
+.header-login{
+    border-radius: 5px;
+    text-align: center;
+    height: 60px;
+    background-color: black;
+}
+
+.header-login-title{
+    padding-top: 5px;
+    font-weight: 600;
+    color: #f8694d;
+}
+
+
+.block-item{
+    display: block;
+}
+
+.form-login{
+    box-sizing: border-box;
+    margin-top: 30px;
+    margin-left: 14%;
+    margin-right: 14%;
+}
+
+.username-label{
+    font-size: 18px;
+
+}
+
+.main-login{
+    /* text-align: center; */
+    /* padding-left: ; */
+}
+
+.login-lable-item{
+    padding-bottom: 5px;
+}
+
+.lable-password{
+    padding-top: 30px;
+}
+
+.login-input{
+    /* margin-right: 10px; */
+    /* text-align: center; */
+    width: 98%;
+    height: 40px;
+    font-size: 16px;
+}
+
+.button-login{
+    text-align: center;
+    /* text-align: center; */
+    width: 100px;
+    height: 30px;
+    background-color: #828282;
+    font-weight: 700;
+    color: white;
+    border: none;
+}
+
+.button-login:hover{
+    background-color: #f8694d;
+}
+
+
+.div-button{
+    /* display: inline; */
+    display: flex;
+    padding-top: 20px;
+    justify-content: space-between;
+
+}
+.div-button .sign-up-button{
+    /* position: relative; */
+    /* margin-right: 100px; */
+    /* padding-left: 80%; */
+}
+
+.middle-div{
+    display: flex;
+    justify-content: right;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: rgb(238, 77, 45);
+    /* box-sizing: border-box; */
+}
+
+.image-login-header{
+    padding-right: 5%;
+}

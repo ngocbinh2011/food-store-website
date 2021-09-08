@@ -1,0 +1,299 @@
+body {
+    font-size: 16px;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+header .login ul li{
+    display: inline;
+    padding: 0 10px; 
+}
+header .login {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1em;
+    padding: 2em auto;
+}
+header .login ul {
+    padding: 0.7em 0.7em 0em 0.7em;
+}
+.login-user {
+    border-right: solid 1px gray;
+    
+}
+.register-user {
+    border-left: solid 1px gray;
+}
+.nav-bar ul{
+    
+    list-style: none;
+}
+.nav-bar ul li {
+    padding-left: 1em;
+    padding-right: 2em;
+    
+}
+nav {
+    padding: 1em 10em;
+}
+.search {
+    display: flex;
+    justify-content: left;
+}
+select {
+    
+    padding-right: 2em;
+    padding-bottom: 0.4em;
+    
+}
+input {
+    padding: 0 5em;
+    padding-bottom: 0.4em;
+}
+.logo {
+    display: flex;
+    flex-direction: row;
+}
+.fa-shopping-cart{
+    background-color: #f8694d;
+    color: #f8694d;
+    padding-top: 35px;
+    padding-right: 50px;
+    padding-left: 10px;
+}
+.names{
+    color: red;
+}
+.search p {
+    padding-top: 0.2em;
+}
+.details{
+    font-size: 14px;
+}
+.shop-name {
+    font-size: 22px;
+}
+.cart{
+    padding-top: 25px;
+}
+.part-2nd {
+    padding: 1em 10em;
+}
+.mid-2nd{
+    color: aliceblue;
+    background-image: url("https://chupanhmonan.com/wp-content/uploads/2017/09/%C4%91%E1%BA%A7u-t%C6%B0-h%C3%ACnh-%E1%BA%A3nh-m%C3%B3n-%C4%83n-%C4%91%E1%BB%83-thu-h%C3%BAt-kh%C3%A1ch-h%C3%A0ng-1024x796.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.right-2nd{
+    padding-left: 5px;
+    color: aliceblue;
+    background-image: url("http://itplus-academy.edu.vn/upload/c47d9c29fc44c2b7996a2613aec3c1f9/files/biiiiii.jpg");
+    /* background-size: 100px; */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.part-2nd ul {
+    list-style: none;
+}
+.left-2nd ul li {
+    padding-bottom: 25px;
+}
+.best-seller{
+    margin: 1em 9em 0em 10em;
+    padding-right: -3em;
+}
+.best-seller .title{
+    text-align: center;
+    background-color: rgb(107, 193, 95);
+}
+.list-items {
+    text-align: center;
+    border-right: solid 1px gray;
+}
+#last-item {
+    border-right: none;
+}
+.transport {
+    height: 100px;
+    margin: 2em 9em 1em 10em;
+}
+.transport .row .col {
+    display: flex;
+}
+.transport .row .col i {
+    padding-top: 0.5em;
+    padding-right: 3px;
+    font-size: 2em;
+}
+.transport .row .col .details {
+    padding: 20px;
+    padding-right: 0;
+}
+.menu .title{
+    
+    padding: 1em 11em 1em 10em;
+}
+.menu-title-left{
+    float: left;
+    font-size: 1.5em;
+    color: rgb(107, 193, 95);;
+}
+.menu-title-right{
+    padding-left: 2.4em;
+    float: right;
+    display: flex;
+    justify-content: space-between;
+}
+.menu-title-right p{
+    padding-top: 1em;
+    padding-right: 3em;
+} 
+.menu .contain {
+    width: 80%;
+    background-color: white;
+    margin-left: calc(10% + 10px);
+    margin-right: 100px;
+    /* padding: 0em 5em 1em 5em; */
+}
+.page-number{
+    text-align: right;
+    padding-top: 10px;
+    margin-left: 1.0em;
+    display: inline-block;
+}
+footer{
+    padding: 1em 10em;
+    background-color: darkslategray;
+    color: whitesmoke;
+
+}
+footer p{
+    font-size: 1.5em;
+    padding-left: 2.5em;
+
+}
+.signature{
+    text-align: left;
+    padding-left: 5em;
+}
+.last-details i {
+    font-size: 5em;
+    padding-left: 1.2em;
+}
+.last-details span{
+    padding-left: 6.5em;
+}
+.last-details p {
+    font-size: 0.9em;
+}
+.contact p{
+    font-size: 0.9em;
+}
+.contact span{
+    margin-bottom: 1px;
+}
+.contact {
+    padding-top: 3em;
+}
+.information{
+    padding-top: 3em;
+}
+.information p{
+    font-size: 0.9em;   
+}
+.information span{
+    padding-bottom: 1.5em;
+}
+.about-us{
+    padding-top: 3em;
+}
+.about-us span{
+    padding-bottom: 1.5em;
+}
+.about-us p{
+    font-size: 0.9em;
+}
+html{
+    overflow-x:hidden;
+    overflow-y: scroll;
+}
+
+
+/*Binh config start here*/
+
+.button-search{
+    background-color: red;
+    color: white;
+}
+
+.body-app{
+    background-color: #f5f5f5;
+}
+
+.white-div{
+    background-color: white;
+}
+
+.icon-transport{
+    padding-left: 50px;
+    margin-top: 22px;
+}
+
+.navbar__title-category{
+    color: red;
+}
+
+.fas, .fab{
+    color: black;
+}
+
+.item-color{
+    color: #28a745;
+}
+
+.navbar__tittle-head{
+    margin-left: 3px;
+    padding-top: 3px;
+    color: red;
+}
+
+.title-item-div{
+    background-color: rgb(107, 193, 95) ;
+    height: 30px;
+}
+
+.cart-icon{
+
+    color: #f8694d;
+}
+
+.cart{
+    color: red;
+}
+
+.logo-div{
+    width: 100px;
+    height: 30px;
+    background-color: black;
+}
+
+.image-product-na{
+    margin-top: 20px;
+}
+
+.background-color-transport{
+    background-color: rgb(107, 193, 95);
+}
+
+.login-sucess{
+
+    padding-right: 9%;
+}
+
+.icon-profile-nav{
+    padding-top: 10px;
+}
