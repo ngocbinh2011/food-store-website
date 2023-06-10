@@ -60,18 +60,18 @@
     </c:if>
   </div>
   <nav class=" row">
-    <a href="home" class="col-3">
+    <a href="/food/home" class="col-3">
       <div class="logo">
         <i class="fas fa-shopping-cart"></i>
         <div class="name">
-          <p class="shop-name"><span class="names">BÌNH</span><span style="color: black;"> SHOP</span></p>
-          <p class="details"><span style="color: red;">HÙNG</span> FAKE <span style="color: violet;">SHOPPING</span></p>
+          <p class="shop-name"><span class="names">My</span><span style="color: black;"> SHOP</span></p>
+          <p class="details"><span style="color: red;"></span> FAKE <span style="color: violet;">SHOPPING</span></p>
         </div>
       </div>
     </a>
     <div class="nav-bar col-8">
       <ul class="row">
-        <li><a href="home">TRANG CHỦ</a></li>
+        <li><a href="/food/home">TRANG CHỦ</a></li>
         <li><a href="#">BỘ SƯU TẬP <i class="fas fa-sort-down conllection"></i></a></li>
         <li><a href="#">SẢN PHẨM <i class="fas fa-sort-down item"></i></a></li>
         <li><a href="#">TIN TỨC</a></li>
@@ -137,14 +137,14 @@
   <div class="signature row">
     <div class="col-3 last-details">
       <i class="fas fa-ambulance row"></i>
-      <span class="row">BINHSHOP</span>
-      <p class="row">Nhà hàng BINH Food thiết kế theo phong cách vừa truyền thống vừa mang nét hiện đại. Kiến trúc sang trọng kết hợp với khung cảnh thiên nhiên tạo cảm giác đặc biệt hơn cho du khách khi thưởng thức ẩm thực tại đây.</p>
+      <span class="row">MySHOP</span>
+      <p class="row">Nhà hàng  Food thiết kế theo phong cách vừa truyền thống vừa mang nét hiện đại. Kiến trúc sang trọng kết hợp với khung cảnh thiên nhiên tạo cảm giác đặc biệt hơn cho du khách khi thưởng thức ẩm thực tại đây.</p>
     </div>
     <div class="col-3 contact">
       <span class="row">LIÊN HỆ</span>
       <br>
       <p class="row"><a href="#"><i class="fas fa-phone row"></i> Di động:0900100có</a></p>
-      <p class="row"><a href="#"><i class="far fa-envelope"></i> Email:pornhub@gmail.com</a></p>
+      <p class="row"><a href="#"><i class="far fa-envelope"></i> Email:demo@gmail.com</a></p>
       <p class="row"><a href="#"><i class="fas fa-map-marker-alt"></i> Vị Trí: 47 Phạm Văn Đồng, Hà Nội. ĐẾN LÀ ĐÓN</a></p>
     </div>
     <div class="col-3 information">
@@ -155,7 +155,7 @@
       <p class="row"><a href="#">ĐIỀU KHOẢNG DỊCH VỤ</a></p>
     </div>
     <div class="col-3 about-us">
-      <span class="row">BINH FOOD</span>
+      <span class="row">My FOOD</span>
       <p class="row"><a href="./index.html">TRANG CHỦ</a></p>
       <p class="row"><a href="#">TÌM KIẾM SẢN PHẨM</a></p>
       <p class="row"><a href="#">GIỚI THIỆU CỬA HÀNG</a></p>

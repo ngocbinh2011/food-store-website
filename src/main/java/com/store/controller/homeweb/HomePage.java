@@ -12,7 +12,6 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-//@WebServlet(name = "HomePage", value = "/home")
 public class HomePage extends HttpServlet {
 
     @Override
@@ -54,3 +53,4 @@ public class HomePage extends HttpServlet {
     }
 
 }
+

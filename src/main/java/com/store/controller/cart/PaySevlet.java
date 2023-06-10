@@ -40,7 +40,11 @@ public class PaySevlet extends HttpServlet {
         request.setAttribute("listOrder", listOrder);
         String priceStringFormat = (new Orders()).toStringPriceFormat(ordersDAO.getTotalPrice(listOrder));
         request.setAttribute("total", priceStringFormat);
-
+        listOrder.stream().forEach(order -> {
+            order.setPay(true);
+            order.setUser(user);
+            ordersDAO.update(order);
+        });
         RequestDispatcher requestDispatcher = request.getRequestDispatcher("/" + Constant.JSP_FILE_ORDER_SUCCESS);
         requestDispatcher.forward(request, response);
 
